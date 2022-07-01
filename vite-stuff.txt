@@ -1,0 +1,37 @@
+Livewire scaffolding installed successfully.
+Please execute "npm install && npm run dev" to build your assets.
+munsif@munsif-T560 ~/programming/newproject/JetstreamScheduler (dev-05-continuation) $ sail npm install && sail npm run dev
+
+added 89 packages, and audited 90 packages in 17s
+
+18 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+npm notice 
+npm notice New patch version of npm available! 8.13.1 -> 8.13.2
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v8.13.2
+npm notice Run npm install -g npm@8.13.2 to update!
+npm notice 
+
+> dev
+> vite
+
+
+  vite v2.9.13 dev server running at:
+
+  > Local:    http://localhost:5173/
+  > Network:  http://172.18.0.7:5173/
+
+  ready in 332ms.
+
+
+  Laravel v9.19.0 
+
+  > APP_URL: http://JetstreamScheduler.test
+
+
+
+
+
+
