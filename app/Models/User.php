@@ -58,4 +58,19 @@ class User extends Authenticatable
     protected $appends = [
         'profile_photo_url',
     ];
+
+    public function groups()
+    {
+        return $this->belongsToMany(Group::class, 'group_users', 'user_id', 'group_id')->withTimestamps();
+    }
+
+    public function dayoff()
+    {
+        return $this->hasMany(DayoffUser::class, 'user_id');
+    }
+
+    public function scheduledays()
+    {
+        return $this->hasMany(Schedule::class, 'user_id');
+    }
 }

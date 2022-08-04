@@ -2,6 +2,11 @@
 
 use Illuminate\Support\Facades\Route;
 
+use App\Http\Controllers\CalendarUserController;
+use App\Http\Controllers\GroupController;
+use App\Http\Controllers\GroupUserController;
+use App\Http\Controllers\ScheduleController;
+use App\Http\Controllers\UserScheduleController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
